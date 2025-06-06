@@ -1,5 +1,84 @@
 # Changelog
 
+## [1.79.119](https://github.com/brave/brave-browser/releases/tag/v1.79.119)
+
+ - [Security] Added a conditional host check in binding handlers as reported on HackerOne by newfunction. ([#46181](https://github.com/brave/brave-browser/issues/46181))
+ - [Security] Added frame host check for Leo IAP in binding receivers as reported on HackerOne by newfunction. ([#46394](https://github.com/brave/brave-browser/issues/46394))
+ - Fixed procedural filters not matching against dynamically added child elements. ([#46208](https://github.com/brave/brave-browser/issues/46208))
+ - Upgraded Chromium to 137.0.7151.68. ([#46515](https://github.com/brave/brave-browser/issues/46515)) ([Changelog for 137.0.7151.68](https://chromium.googlesource.com/chromium/src/+log/137.0.7151.61..137.0.7151.68?pretty=fuller&n=1000))
+
+## [1.79.118](https://github.com/brave/brave-browser/releases/tag/v1.79.118)
+
+### Web3
+
+ - Updated default segmented control size in wallet panel. ([#45351](https://github.com/brave/brave-browser/issues/45351))
+ - Fixed issue where Zcash native token may not be displayed on some wallets. ([#46306](https://github.com/brave/brave-browser/issues/46306))
+ - Fixed the "More" menu on the "Accounts" list being pushed out of view in certain cases. ([#44949](https://github.com/brave/brave-browser/issues/44949))
+
+### Leo
+
+ - Added full page screenshot feature for Brave Leo. ([#45510](https://github.com/brave/brave-browser/issues/45510))
+ - Added support to allow for empty favicon for WebSources. ([#45346](https://github.com/brave/brave-browser/issues/45346))
+ - Added "DeepSeek R1" to the list of pre-loaded models. ([#45294](https://github.com/brave/brave-browser/issues/45294))
+ - Added support for inline citations in generated responses. ([#45152](https://github.com/brave/brave-browser/issues/45152))
+ - Added the ability to have links in Leo responses. ([#44207](https://github.com/brave/brave-browser/issues/44207))
+ - Updated chat bubbles to break and wrap long words and URLs. ([#45302](https://github.com/brave/brave-browser/issues/45302))
+
+### General
+
+ - Added inline PDF viewer to open PDF files directly in Brave. ([#42621](https://github.com/brave/brave-browser/issues/42621))
+ - Added ability to enable bottom address bar via brave://flags. ([#41699](https://github.com/brave/brave-browser/issues/41699))
+ - Removed Chromium search widgets from Brave. ([#45598](https://github.com/brave/brave-browser/issues/45598) & [#30653](https://github.com/brave/brave-browser/issues/30653))
+ - Removed Chromium Dino game widget from Brave. ([#30654](https://github.com/brave/brave-browser/issues/30654))
+ - Fixed PiP (Picture-in-Picture) functionality to work properly when Brave is backgrounded or when device is locked and unlocked. ([#44933](https://github.com/brave/brave-browser/issues/44933) & [#46128](https://github.com/brave/brave-browser/issues/46128))
+ - Fixed crash which occurred when using search functionality in certain cases. ([#45127](https://github.com/brave/brave-browser/issues/45127))
+ - Upgraded Chromium to 137.0.7151.61. ([#46422](https://github.com/brave/brave-browser/issues/46422)) ([Changelog for 137.0.7151.61](https://chromium.googlesource.com/chromium/src/+log/136.0.7103.113..137.0.7151.61?pretty=fuller&n=1000))
+
+## [1.78.102](https://github.com/brave/brave-browser/releases/tag/v1.78.102)
+
+ - Upgraded Chromium to 136.0.7103.113. ([#46065](https://github.com/brave/brave-browser/issues/46065)) ([Changelog for 136.0.7103.113](https://chromium.googlesource.com/chromium/src/+log/136.0.7103.93..136.0.7103.113?pretty=fuller&n=1000))
+
+## [1.78.99](https://github.com/brave/brave-browser/releases/tag/v1.78.99)
+
+ - Fixed Brave startup slowdown caused by unnecessary dev resources loading. ([#45969](https://github.com/brave/brave-browser/issues/45969))
+
+## [1.78.97](https://github.com/brave/brave-browser/releases/tag/v1.78.97)
+
+ - Upgraded Chromium to 136.0.7103.93. ([#45894](https://github.com/brave/brave-browser/issues/45894)) ([Changelog for 136.0.7103.93](https://chromium.googlesource.com/chromium/src/+log/136.0.7103.60..136.0.7103.93?pretty=fuller&n=1000))
+
+## [1.78.96](https://github.com/brave/brave-browser/releases/tag/v1.78.96)
+
+ - Fixed startup crash when upgrading to Chromium 136 with certain brave://flags/ enabled. ([#45816](https://github.com/brave/brave-browser/issues/45816))
+
+## [1.78.94](https://github.com/brave/brave-browser/releases/tag/v1.78.94)
+
+### Leo
+
+ - Added support for image upload to Leo. ([#44311](https://github.com/brave/brave-browser/issues/44311) & [#44844](https://github.com/brave/brave-browser/issues/44844))
+ - Increased content lengths to improve Leo response when referencing a long page content. ([#43928](https://github.com/brave/brave-browser/issues/43928))
+ - Fixed Leo not loading when "Block Scripts" is enabled in global settings. ([#36012](https://github.com/brave/brave-browser/issues/36012))
+
+### General
+
+ - Added setting to allow screenshots in Private browsing. ([#35242](https://github.com/brave/brave-browser/issues/35242))
+ - Improved "tap" animation rendering in tabs overview mode. ([#44939](https://github.com/brave/brave-browser/issues/44939))
+ - Removed known tracking parameter "ck_subscriber_id" from certain URLs. ([#44341](https://github.com/brave/brave-browser/issues/44341))
+ - Fixed an issue where Picture-in-Picture playback was not working when the screen was off. ([#44287](https://github.com/brave/brave-browser/issues/44287))
+ - Fixed crash when loading Brave News content in certain cases. ([#39166](https://github.com/brave/brave-browser/issues/39166))
+ - Upgraded Chromium to 136.0.7103.60. ([#45767](https://github.com/brave/brave-browser/issues/45767)) ([Changelog for 136.0.7103.60](https://chromium.googlesource.com/chromium/src/+log/135.0.7049.115..136.0.7103.60?pretty=fuller&n=1000))
+
+## [1.77.101](https://github.com/brave/brave-browser/releases/tag/v1.77.101)
+
+ - Upgraded Chromium to 135.0.7049.115. ([#45615](https://github.com/brave/brave-browser/issues/45615)) ([Changelog for 135.0.7049.115](https://chromium.googlesource.com/chromium/src/+log/135.0.7049.100..135.0.7049.115?pretty=fuller&n=1000))
+
+## [1.77.100](https://github.com/brave/brave-browser/releases/tag/v1.77.100)
+
+ - Upgraded Chromium to 135.0.7049.100. ([#45458](https://github.com/brave/brave-browser/issues/45458)) ([Changelog for 135.0.7049.100](https://chromium.googlesource.com/chromium/src/+log/135.0.7049.84..135.0.7049.100?pretty=fuller&n=1000))
+
+## [1.77.97](https://github.com/brave/brave-browser/releases/tag/v1.77.97)
+
+ - Upgraded Chromium to 135.0.7049.84. ([#45297](https://github.com/brave/brave-browser/issues/45297)) ([Changelog for 135.0.7049.84](https://chromium.googlesource.com/chromium/src/+log/135.0.7049.52..135.0.7049.84?pretty=fuller&n=1000))
+
 ## [1.77.95](https://github.com/brave/brave-browser/releases/tag/v1.77.95)
 
 ### Web3
